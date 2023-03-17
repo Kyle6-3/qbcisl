@@ -25,13 +25,22 @@
         }
     });
     // Nav Logo
+    var logo1 = document.getElementById('logo1');
+    var logo2 = document.getElementById('logo2');
+
+
     $(document).ready(function(){
         $(window).scroll(function(){
-            if($(window).scrollTop() > $(window).height()){
-                $(".logo1").css({"background-image":"url(img/logo.png)"},);   
+            if($(window).scrollTop() > 10){
+                // $(".logo1").css("../img/logog.png");   
+                logo1.style.display = 'block';
+                logo2.style.display = 'none';
+
             }
             else{
-                $(".logo1").css({"background-color":"transparent"});
+                logo1.style.display = 'none';
+                logo2.style.display = 'block';
+               // $(".logo1").css("../img/logo.png");
             }
     
         })

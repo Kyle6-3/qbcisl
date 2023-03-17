@@ -29,6 +29,9 @@
   right: 45px;
   bottom: 45px;
   z-index: 99;
+  -webkit-filterfilter: grayscale();
+  /* filter: invert(); */
+  -webkit-filter: invert();
 }
 
 .my-6 {
