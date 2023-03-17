@@ -111,12 +111,6 @@
   color: #ffffff;
 }
 
-.navbar .navbar-brand img {
-  /* max-height: 60px; */
-  /* transition: 0.5s; */
-  /* color: #ac240c !important; */
-  /* background-image: url; */
-}
 
 .sticky-top.navbar .navbar-brand img {
   max-height: 100px;
@@ -127,10 +121,7 @@
 
 }
 .logo{
- 
   z-index: 50;
-  /* margin: 20px; */
-  /* padding-top: -200px; */
 }
 @media (max-width: 991.98px) {
   .sticky-top.navbar {
@@ -506,42 +497,65 @@
 	background-image:url(/img/service1.jpg);
  }
  
-.about {
-  position: relative;
-  padding: 100px 0;
-  background: #ffffff;
-}
 
-.about .about-img {
-  position: relative;
-  overflow: hidden;
-}
+body
+ {
+   background-color: #f6feff;
+   background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23c7e5ff' fill-opacity='0.4'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+ }
 
-.about .about-img img {
-  width: 100%;
-}
-
-.about .about-content {
-  position: relative;
-  width: 100%;
-  color: #1d1d1dcb;
-}
-
-.about .about-content:first-child {
-  margin-bottom: 30px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid rgba(0, 0, 0, .125);
-}
-
-.about .about-content h3 {
-  font-size: 30px;
-  letter-spacing: 1px;
-  text-transform: capitalize;
-}
-
-.about .about-content p {
-  position: relative;
-  font-size: 18px;
+ .about2 {
+  text-align: center;
+  font-size: 4rem;
+  color: #ac240c80;
+  margin-bottom: 1rem;
+  padding-bottom: 100px;
+ } 
+ 
+ h1
+ {
+   color:#ac240c;
+ }
+ 
+ p{
+   color:DimGrey;
+ }
+ 
+ .padding {padding: 80px 0;}
+ 
+ .about_section .about_img img
+ {
+     max-width:100%;
+     border-radius:15px;
+     box-shadow:0 16px 28px 0 #8b5d55;}
+ 
+ @media (min-width:992px)
+ {
+     .about_section .about_img img
+     {
+     width:60%;}
+ 
+     .about_section .about_img_2
+     {
+     margin:-180px 0 0 270px;}
+     
+     .about_section .about_img_3
+     {
+     margin:-260px 0 0 40px;}
+ }
+ 
+ @media(max-width:991px)
+ {
+     .about_section .about_img img
+   {
+       margin:3rem 0;}
+ }
+ 
+ .about_section .content 
+ {
+   background-color:white;
+   border-radius:35px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 /* serices */
 .service {
