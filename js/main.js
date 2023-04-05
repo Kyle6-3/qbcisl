@@ -31,7 +31,7 @@
 
     $(document).ready(function(){
         $(window).scroll(function(){
-            if($(window).scrollTop() > 02){
+            if($(window).scrollTop() > 10){
                 // $(".logo1").css("../img/logog.png");   
                 logo1.style.display = 'block';
                 logo2.style.display = 'none';
