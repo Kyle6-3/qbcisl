@@ -571,8 +571,8 @@
 
 /*** Footer ***/
 .footer .btn.btn-social {
-  margin-right: 5px;
-  width: 40px;
+  margin-right: 10px;
+  width: 50px;
   height: 40px;
   display: flex;
   align-items: center;
@@ -610,11 +610,6 @@
   box-shadow: none;
 }
 
-.footer .copyright {
-  padding: 25px 0;
-  font-size: 14px;
-  border-top: 1px solid rgba(256, 256, 256, 0.1);
-}
 
 .footer .copyright a {
   color: var(--light);
@@ -630,4 +625,8 @@
   margin-right: 0;
   padding-right: 0;
   border-right: none;
+}
+.footer .col-md-6 .col-lg-3 {
+  right: -30px !important;
+  margin-left: 40px;
 }
