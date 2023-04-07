@@ -489,9 +489,6 @@
   background-size:cover;
 }
 
-.slide:nth-child(1){
- }
- 
 .about {
   position: relative;
   padding: 100px 0;
@@ -628,4 +625,20 @@
 .footer .col-md-6 .col-lg-3 {
   right: -30px !important;
   margin-left: 40px;
+}
+.wrapper img{
+width: 100%;
+}
+.new-naira {
+  filter: brightness(60%);
+}
+.log {
+  filter: brightness(30%);
+}
+.naira-world {
+  font-size: 30px;
+  font-weight: 700;
+}
+.about-us {
+  margin-bottom: -50px;
 }

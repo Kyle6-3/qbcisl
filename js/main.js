@@ -31,7 +31,7 @@
 
     $(document).ready(function(){
         $(window).scroll(function(){
-            if($(window).scrollTop() > 3){
+            if($(window).scrollTop() > 0){
                 // $(".logo1").css("../img/logog.png");   
                 logo1.style.display = 'block';
                 logo2.style.display = 'none';
@@ -150,3 +150,22 @@ gallery.querySelectorAll('.gallery-item').forEach(function (item) {
         item.classList.toggle('full');        
     });
 });
+
+
+//Initialize the carousel
+$(function() {
+  
+    $('.carousel').carousel({
+      interval: 5000
+    });
+    
+  });
+  
+  //Make the caption responsive to window width
+  $(document).ready(function() {
+      $('.carousel .carousel-caption').css('zoom', $('.carousel').width()/1250);
+    });
+  
+    $(window).resize(function() {
+      $('.carousel .carousel-caption').css('zoom', $('.carousel').width()/1250);
+    });
