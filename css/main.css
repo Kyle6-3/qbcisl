@@ -306,3 +306,38 @@ div .organogram h2 {
   justify-content: center;
   align-items: center;
 }
+section {
+height: 50vh !important;
+margin: 0 !important;
+padding: 0 !important;
+background-color: #d6d5d5 !important;
+display: flex !important;
+flex-direction: column !important;
+}
+.container-new .row {
+  width: 50px !important;
+  margin: auto !important;
+  height: 600px;
+  background-color: blanchedalmond;
+  padding: 4rem 5rem;
+  position: relative;
+}
+.textblock .row{
+  width: 45px;
+  font-family: poppins;
+}
+.textblock .title {
+  text-align: center;
+  text-transform: uppercase;
+  color: #777;
+  margin-bottom: 1.5rem;
+}
+.textblock .sub-title {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #2302dd;
+  margin-bottom: 1.8rem;
+}
+ .container-new .row .image {
+  width: 50px;
+ }

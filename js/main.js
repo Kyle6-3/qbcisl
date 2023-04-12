@@ -33,14 +33,12 @@
         $(window).scroll(function(){
             if($(window).scrollTop() > 0){
                 // $(".logo1").css("../img/logog.png");   
-                logo1.style.display = 'block';
-                logo2.style.display = 'none';
+                // logo1.style.display = 'block';
+                logo2.src = "../img/logo.png";
 
             }
             else{
-                logo1.style.display = 'none';
-                logo2.style.display = 'block';
-               // $(".logo1").css("../img/logo.png");
+                logo2.src = "../img/logog.png";
             }
     
         })
